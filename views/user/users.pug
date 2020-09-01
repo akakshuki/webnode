@@ -1,0 +1,8 @@
+h3  list user
+img(src="static/image/aaa1.png")
+ul
+     each value in users
+        li  
+            span= value.name
+            span &nbsp;
+            a(href="/users/"+ value.id) view

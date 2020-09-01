@@ -1,0 +1,7 @@
+h3  list user
+ul
+    each value in users
+        li  
+            span= value.name
+            span= &nbsp;
+            a(href="user/"+ value.id) view
